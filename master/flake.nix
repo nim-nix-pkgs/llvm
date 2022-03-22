@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-llvm-master.flake = false;
+  inputs.src-llvm-master.ref   = "refs/heads/master";
   inputs.src-llvm-master.owner = "FedeOmoto";
-  inputs.src-llvm-master.ref   = "master";
   inputs.src-llvm-master.repo  = "llvm";
   inputs.src-llvm-master.type  = "github";
   
