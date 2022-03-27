@@ -11,6 +11,7 @@
   inputs.src-llvm-master.ref   = "refs/heads/master";
   inputs.src-llvm-master.owner = "FedeOmoto";
   inputs.src-llvm-master.repo  = "llvm";
+  inputs.src-llvm-master.dir   = "";
   inputs.src-llvm-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
